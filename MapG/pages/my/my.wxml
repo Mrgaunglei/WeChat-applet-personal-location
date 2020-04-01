@@ -1,0 +1,25 @@
+<view class="root">
+  <view class="login"  >
+    <view class="head">
+      <image wx:if="{{hasUserInfo}}" src="{{userInfo.avatarUrl}}"></image>
+      <block wx:else open-type="getUserInfo"><image src="../../images/login.png"></image></block>
+    </view>
+    <view class="txt">
+        <button  wx:if="{{hasUserInfo}}" plain="ture"  bindgetuserinfo="getUserInfo"open-type="getUserInfo">
+                   {{userInfo.nickName}}</button>
+        <block wx:else open-type="getUserInfo"><button   plain="ture"
+            bindgetuserinfo="getUserInfo"open-type="getUserInfo">点击登录</button>
+        </block>
+        
+    </view>
+    <view class="right">
+    <image src="../../images/right.png" style="width:20px;height:20px;"></image>
+  </view>
+  </view>
+  <view class="about" bindtap="about">
+    <image src="../../images/about.png"></image>
+    <text>{{about}}</text>
+    <image src="../../images/right.png" style="width:20px;height:20px;"></image>
+  </view>
+  
+</view>

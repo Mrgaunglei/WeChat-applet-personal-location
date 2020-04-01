@@ -1,0 +1,15 @@
+/* pages/made/made.wxss */
+page{
+  height: 667px;  
+}
+.root{
+  height: 667px;
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  text-align: center;
+}
+.root text{
+  font-size: 18px;
+}

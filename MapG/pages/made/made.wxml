@@ -1,0 +1,6 @@
+<view class="root">
+ <text>{{sug}}</text>
+  <view class="top">
+    <image src="../../images/sug.png" style="width: 350px;height: 640px;"></image>
+  </view>
+</view>

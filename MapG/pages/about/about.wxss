@@ -1,0 +1,51 @@
+page{
+  width: 100%;
+  height: 100%;  
+}
+.root{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  background-color: #E3E3E3; 
+}
+.sug{
+  height: 40px;
+  font-size:20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.sug image{
+  
+}
+.sug text{
+   font-size: 18px;
+   padding-left: 10px;
+   font-family: "微软雅黑";
+   flex: 1;
+}
+.description{
+    margin: 30px  auto;
+}
+.description text{
+  font-size: 25px;
+  font-family: "微软雅黑"
+}
+.dong{
+  width: 100%;
+  height: 200px;
+  flex: 1;
+}
+.speek{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.speek text{
+    font-size: 15px;
+    color:#ADADAD; 
+}

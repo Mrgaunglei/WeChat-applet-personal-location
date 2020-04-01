@@ -1,0 +1,62 @@
+page{
+  height: 100%;
+  width: 100%;
+}
+.root{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f8f3ed;
+}
+.login {
+   margin: 15px 0;
+   height: 80px;
+   align-items: center;
+   display: flex;
+   background-color: #fff;
+}
+.head{
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+.txt{
+ flex: 1;
+ display: flex;
+}
+.txt button{
+  width:100px;
+  height: 80px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+ 
+}
+.right image{
+  width: 30px;
+  height: 30px;
+}
+.head image{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+.about{
+  background-color: #fff;
+  height: 45px;
+  font-size:20px;
+  display: flex;
+  align-items: center;
+}
+.about image{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+ 
+}
+.about text{
+    flex: 1;
+    margin-left: 10px;
+  }

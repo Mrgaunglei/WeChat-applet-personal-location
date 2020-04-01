@@ -1,0 +1,43 @@
+/* pages/map/map.wxss */
+page {
+  height: 100%;
+  width: 100%;
+}
+.root{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   background-color:#c0c0c0;
+   z-index: -1;
+  }
+  .navigT{
+    position: absolute;
+    z-index: 99999;
+    margin: 0 15px;
+  }
+  .navigT input{
+    width: 345px;
+    height: 40px;
+    background: #fff;
+    margin: 14px auto;
+    font-size: 14px;
+    font-family: "微软雅黑";
+  }
+.maMap{
+  height: 667px;
+  width: 100%;
+}
+.map{
+  flex: 1;
+  z-index: 1;
+  overflow:aoto;
+}
+.gps{
+    position: absolute;
+    z-index: 119;
+    margin: 300px 320px;
+}
+.gps image{
+  width: 25px;
+  height: 25px;
+}

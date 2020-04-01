@@ -1,0 +1,14 @@
+<view class="root">
+    <view class="description">
+        <text>MapG</text> 
+    </view>
+    <view class="sug" bindtap="sug">
+       <text>{{about}}</text>
+        <image src="../../images/right.png" style="height:17px;width:17px;" ></image>
+    </view>
+    <view class="dong"></view>
+    <view class="speek">
+      <text>{{text1}}</text>
+      <text>{{text2}}</text>
+    </view> 
+</view>
